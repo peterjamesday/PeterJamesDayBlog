@@ -1,2 +1,5 @@
- <h2><%= link_to_unless_current post.title, post %></h2>
- <%= simple_format post.body %>
+<div class="post">
+<h2><%= link_to_unless_current post.title, post %></h2>
+<div class="entry"> <%= simple_format post.body %> </div>
+<p class="postMetaData"><%= post.created_at %></p>
+</div>

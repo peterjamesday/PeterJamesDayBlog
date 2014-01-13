@@ -7,8 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="page">
+	<div id="header"></div>
+	<div id="sidebar">
+		<h2>Peter James Day</h2>
+	</div>
+	<div id="content" class="narrowcolumn">
+	<br>
+		<%= yield %>
 
-<%= yield %>
 
+	</div>
+</div>
 </body>
 </html>

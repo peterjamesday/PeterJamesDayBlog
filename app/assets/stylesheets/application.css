@@ -11,3 +11,564 @@
  *= require_self
  *= require_tree .
  */
+body {
+  background:#F7F9FF;
+  font-size: 75%; 
+  font:x-small Georgia,Serif;
+  margin:0;
+  padding:40px 20px;
+  color:#161616;
+  text-align:left;
+	}
+
+a:link {
+  color:#770000;
+	border-bottom: dotted 1px;
+	text-decoration: none;
+}
+a:visited {
+  color:#770000;
+	border-bottom: dotted 1px;
+	text-decoration: none;  
+}
+a:hover {
+  color:#000000;
+  border-bottom: dotted 1px;
+  text-decoration: none;
+}
+
+
+#page {
+	background: #fff;
+	text-align: left;
+	}
+
+#header {
+	background: #fff;
+	}
+
+#content {
+	font-size: 140%
+
+	}
+
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.4em;
+
+	}
+
+
+
+.narrowcolumn .postmetadata {
+	text-align: left;
+	}
+
+.alt {
+	background-color: #fff;
+	}
+
+#footer {
+	background: #fff; 
+	border: none;
+	}
+/* date? */
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.7em;
+  text-transform:uppercase;
+  letter-spacing: 1.25px;
+	line-height: 1.5em;
+
+	}
+
+h1 {
+  font:Georgia,Serif;
+	}
+
+h2 {
+  font:x-small Georgia,Serif;
+	}
+
+h3 {
+  font:x-small Georgia,Serif;
+	}
+
+h4 {
+  font:x-small Georgia,Serif;
+	}
+
+#headerimg .description {
+	font-size: 1.2em;
+	text-align: center;
+	}
+
+h2 {
+	font-size: 175%;
+	}
+
+
+#sidebar h2 {
+  font: 106% "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1.95em;
+  color:#888;
+  text-align: center;
+	}
+
+h3 {
+  font: 86% "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1.95em;
+  color:#00208A;
+
+	}
+
+h2, h2 a, h2 a:visited {
+	color: #000A29;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+h2 a:link {
+	color: #000A29;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+h2 a:hover {
+	color: #000A29;
+	border-bottom: dotted 1px #000000;
+	text-decoration: none;
+	}
+
+h3, h3 a, h3 a:visited, #wp-calendar caption, cite {
+	color: #888;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+h3 a:hover {
+	color: #888;
+	border-bottom: dotted 1px #888;
+	text-decoration: none;
+
+	}
+
+h4, h4 a, h4 a:visited {
+	color: #ffffff;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+h4 a:link {
+	color: #ffffff;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+h4 a:hover {
+	color: #ffffff;
+	border-bottom: dotted 1px #ffffff;
+	text-decoration: none;
+	}
+
+.entry p {
+	color: #000A29;
+}
+
+.entry p a:visited {
+	color: #000A29;
+	}
+
+.entry p a:hover {
+	color: #000A29;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#sidebar {
+  font:x-small Georgia,Serif;
+	font-size: 1.25em;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li, .nocomments, strike {
+	color: #888;
+	}
+
+.postmetadata {
+	color: #000A29;
+	}
+
+small {
+	color: #000A29;
+	}
+
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+
+
+
+/* Begin Structure */
+body {
+	margin: 0 0 20px 0;
+	padding: 0; 
+	}
+
+#page {
+	background: #fff;
+	margin: 20px;
+	padding: 0;
+	width: 950px;
+	}
+
+
+/* Begin Sidebar */
+#sidebar
+{
+  margin-top: 3%;
+  margin-left: 1%;
+  width: 22%;
+  float: left;
+
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+
+#header {
+	background:#fff
+	}
+
+#headerimg {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	}
+
+
+.narrowcolumn {
+padding: 0 0 0 28px;
+  margin-right: 1%;
+  width: 70%;
+  float: right;
+ border-left: dotted 1px #770000;
+
+	}
+
+
+
+.post {
+	margin: 0 0 40px;
+	text-align: left;
+ border-bottom: dotted 1px #888;
+
+	}
+
+
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+
+.postmetadata {
+	clear: left;
+}
+
+#footer {
+	width: 760px;
+	clear: both;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	}
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {
+	padding-top: 70px;
+	margin: 0;
+	}
+
+h2 {
+	margin: 30px 0 0;
+	}
+
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+  padding:4px;
+  border: dotted 1px #999;
+  max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+
+#navlist li { list-style-type: square; }
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	float: right;
+	padding: 2px 0 16px 0;
+
+	}
+
+#sidebar #searchform #s {
+	width: 175px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 2px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform {
+	margin: 0;
+	float: right;
+	}
+
+#submit {
+	margin: 0;
+	float: right;
+	}
+
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: left;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+
+.lca_image {
+  padding:4px;
+  margin: 0 7px 2px 0;
+  border: dotted 1px #999;
+  float: left;
+    }
+
+.hr { 
+   border: 0:
+   width: 95%;
+   line-height: 1px;
+   color:#999;
+   border-top: dotted 1px;
+ }
+
+/* End Comments */
+
