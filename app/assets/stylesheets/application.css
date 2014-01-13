@@ -563,7 +563,7 @@ select {
     }
 
 .hr { 
-   border: 0:
+   border: 0;
    width: 95%;
    line-height: 1px;
    color:#999;
